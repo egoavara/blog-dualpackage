@@ -125,3 +125,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# inner node_modules
+test/cjs/**/*.js
+test/esm/**/*.js
+test/cjs/**/*.js.map
+test/esm/**/*.js.map
+test/cjs/**/*.d.ts
+test/esm/**/*.d.ts
+test/cjs/**/*.d.ts.map
+test/esm/**/*.d.ts.map
+*/package-lock.json
+*/node_modules
